@@ -52,24 +52,33 @@
 
 
         <section>
-          <img src="img/me.png" style="position: absolute; top:0; left:0; max-width: 260px; max-height: 260px; border-radius: 30px">
-          <ul style="position: absolute; top:0; left:300px;">
-            <li>Ionitron</li>
-            <li>Ionic Framework Developer</li>
-            <li>Madison, WI, USA, Earth, Sol, Milky Way</li>
-            <li><a href="https://twitter.com/ionitron">@ionitron</a></li>
-            <li><a href="https://github.com/ionitron">github.com/ionitron</a></li>
+          <img src="https://www.mobomo.com/wp-content/uploads/2014/09/Brian_lacey.jpg" style="position: absolute; top:-20px; left:0; max-width: 260px; max-height: 260px; border-radius: 30px">
+          <ul style="position: absolute; top:30px; left:300px;">
+            <li>Brian Lacey</li>
+            <li>CEO</li>
+            <li><a href="https://twitter.com/freedomnutz">@freedomnutz</a></li>
+            <li><a href="https://www.mobomo.com/">www.mobomo.com/</a></li>
+          </ul>
+
+          <img src="https://www.mobomo.com/wp-content/uploads/2014/09/name.jpg" style="position: absolute; top:270px; left:0; max-width: 260px; max-height: 260px; border-radius: 30px">
+          <ul style="position: absolute; top:320px; left:300px;">
+            <li>Adam Barthelson</li>
+            <li>Developer</li>
+            <li><a href="https://twitter.com/adambarthelsonionitron">@adambarthelson</a></li>
+            <li><a href="https://github.com/adambarthelson">github.com/adambarthelson</a></li>
           </ul>
         </section>
 
         <section>
           <h2>Overview</h2>
           <ol>
-            <li>Native vs Hybrid Apps</li>
-            <li>Intro Ionic</li>
-            <li>UI Components</li>
+            <li>Why Ionic?</li>
+            <li>Getting Started</li>
+            <li>Ionic UI Components</li>
             <li>Ionic CLI</li>
-            <li>Demos</li>
+            <li>AngularJS Primer</li>
+            <li>Access Native Device Functionality</li>
+            <li>Demo</li>
           </ol>
         </section>
 
@@ -160,34 +169,6 @@
         </section>
 
 
-        <section data-background="white">
-          <img src="img/ios8-adoption.png">
-          <p style="font-size:10px">https://mixpanel.com/trends/#report/ios_8/from_date:-141,report_unit:day,to_date:0</p>
-        </section>
-
-
-        <section data-background="white">
-          <img src="img/android-adoption.png">
-          <p style="font-size:10px">https://mixpanel.com/trends/#report/android_os_adoption</p>
-        </section>
-
-
-        <section>
-          <h3 style="margin:0">Native SDKs...</h3>
-          <h2 style="font-size:2.2em;">Are Great!</h2>
-          <p style="margin:30px auto 20px auto; width: 600px">
-            Common UI, APIs, views, navigation, stack history, transitions, interactions, gestures, etc.
-          </p>
-            <img src="img/native-sdk.png" style="width:66%">
-        </section>
-
-
-
-
-
-        <section data-background="img/websdk.png" style="width:100%">
-        </section>
-
 
         <section data-background="white">
           <img src="img/ionic-logo.svg" style="width:750px;">
@@ -236,10 +217,6 @@
             <li style="background: #3b4854">WebView (Cordova)</li>
             <li style="background: #d4deee; color: #3b4854;">Native App</li>
           </ul>
-        </section>
-
-
-        <section data-background="img/continuity.png">
         </section>
 
 
@@ -323,24 +300,6 @@
           </div>
         </section>
 
-
-        <section>
-          <div class="col preview demo-frame">
-            <iframe isrc="demos/swipe-back/index.html"></iframe>
-          </div>
-          <div class="col code">
-            <h3>Swipe To Go Back</h3>
-            <ul style="margin-left: 70px">
-              <li>Swipe back to previous view</li>
-              <li>Interactive transition</li>
-              <li>Benefit of cached views</li>
-              <li>Still updates the app's URL</li>
-              <li>WebView (Cordova) only</li>
-            </ul>
-          </div>
-        </section>
-
-
         <section>
           <div class="col preview demo-frame">
             <iframe isrc="demos/components/index.html"></iframe>
@@ -368,19 +327,13 @@
 
 
         <section>
-          <h2><strong>MIT LICENSED</strong></h2>
-          <h6 class="light-text">Free to use (even commercially)</h6>
+          <h3>Required Tools</h3>
+          <ul>
+            <li>NodeJS (https://nodejs.org/en/)</li>
+            <li>Bower (http://bower.io/#install-bower)</li>
+            <li>Ionic & Cordova (http://ionicframework.com/docs/guide/installation.html)</li>
+          </ul>
         </section>
-
-
-        <section>
-          <h2>Ionicons</h2>
-          <img src="img/ionicons.png" class="logo" width="655" height="436">
-          <p>700+ MIT licensed font-icons included</p>
-          <p><a href="http://ionicons.com/" target="_blank">ionicons.com</a></p>
-        </section>
-
-
 
         <section data-background="white">
           <p><code style="font-size: 1.2em;" class="ionic-blue">npm install -g ionic cordova</code></p>
@@ -390,42 +343,81 @@
           <p class="ionic-blue">Build and run <strong>native apps</strong></p>
         </section>
 
-        <section data-background="img/chromium.jpg">
-          <h3 style="margin:0; font-size:60px;">Modern</h3>
-          <h2 style=" font-size:80px;">Chromium!</h2>
-          <p>Chromium for Android <strong>WebViews</strong></p>
-          <p><strong>Upgrade Android</strong> 4.1+ and above</p>
-          <p>Same hardware, <strong>modern software</strong></p>
-          <p><strong>Amazing performance</strong> improvements</p>
+
+        <section>
+          <h3>Helpful Ionic CLI Commands</h3>
+          <ul>
+            <li>ionic setup sass</li>
+            <li>ionic serve (browser)</li>
+            <li>ionic serve -l (launches Lab)</li>
+            <li>If you have platform tools installed (iOS & Android SDKs):
+              <ul>
+                <li>ionic emulate (Ionic adds iOS platform and builds for iOS by default)</li>
+                <li>To build & run using Android SDK:
+                  <ul>
+                    <li>ionic platform add android</li>
+                    <li>ionic build android</li>
+                    <li>ionic run android</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </section>
+
+
+        <section>
+          <h3>AngularJS Primer</h3>
+          <ul>
+            <li>Introduction to AngularJS (<a href="https://thinkster.io/a-better-way-to-learn-angularjs">https://thinkster.io/a-better-way-to-learn-angularjs</a>)</li>
+            <li>Getting familiar with routes
+              <ul>
+                <li>Angular's ui-router (<a href="https://github.com/angular-ui/ui-router">https://github.com/angular-ui/ui-router</a>)</li>
+                <li>Ionic's ion-nav-view (<a href="http://ionicframework.com/docs/api/directive/ionNavView/">http://ionicframework.com/docs/api/directive/ionNavView/</a>)</li>
+              </ul>
+            </li>
+            <li>What's a Directive?
+              <ul>
+                <li>Angular's directive guide (<a href="https://docs.angularjs.org/guide/directive">https://docs.angularjs.org/guide/directive</a>)</li>
+                <li>Ionic's ion-nav-bar directive (<a href="http://ionicframework.com/docs/api/directive/ionNavBar/ ">http://ionicframework.com/docs/api/directive/ionNavBar/</a>)</li>
+                <li>Additional Ionic directives (<a href="http://ionicframework.com/docs/api/">http://ionicframework.com/docs/api/</a>)</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
 
         <section data-background="img/ng-cordova.png">
         </section>
 
 
-        <section data-background="img/ionicio.png">
-        </section>
+        <section>
+          <h3>Access Native Device Functionality</h3>
 
+          <ul>
+            <li>Install ngCordova</li>
+            <li>Include ngCordova JS in index.html (after bundled ionic/angularjs)</li>
+            <li>Inject ngCordova service</li>
+            <li>Install the Cordova Camera plugin</li>
+          </ul>
 
-        <section data-background="img/ionic-view.png">
+          <p><code>bower install ngCordova --save-dev</code></p>
+
+          <p><code>lib/ngCordova/dist/ng-cordova.js</code></p>
+
+          <p><code>angular.module('starter', ['ionic','ngCordova'])</code></p>
+
+          <p><code>ionic plugin add org.apache.cordova.camera</code></p>
         </section>
 
 
         <section data-background="img/ionic-creator.png">
         </section>
 
-
-        <section data-background="img/market.png">
+        <section data-background="#232323">
+          <h2 style="color:#32b83b;font-family:Monaco;"><strong>Demo Time!</strong></h2>
+          <h6 style="color:#32b83b;font-family:Monaco;">May the demo gods be with us</h6>
         </section>
-
-
-        <section data-background="img/community.jpg">
-        </section>
-
-
-        <section data-background="img/ionic-angular-v2.jpg">
-        </section>
-
 
         <section>
           <h2>Get Started with Ionic!</h2>
@@ -464,22 +456,16 @@
         </section>
 
 
-        <section data-background="#232323">
-          <h2 style="color:#32b83b;font-family:Monaco;"><strong>Demo Time!</strong></h2>
-          <h6 style="color:#32b83b;font-family:Monaco;">May the demo gods be with us</h6>
-        </section>
-
-
         <section>
           <h2><code style="font-size:60px">&lt;/html&gt;</code></h2>
           <h3>
-            <a href="https://twitter.com/ionicframework" target="_blank">
-              @ionicframework
+            <a href="https://twitter.com/mobomoapps" target="_blank">
+              @mobomoapps
             </a>
           </h3>
           <h4>
-            <a href="http://ionicframework.github.io/ionic-present/#/">
-              http://ionicframework.github.io/ionic-present
+            <a href="http://withinsight.github.io/modev-ionic/#/">
+              http://withinsight.github.io/modev-ionic
             </a>
           </h4>
         </section>
