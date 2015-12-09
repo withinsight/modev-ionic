@@ -396,114 +396,6 @@ angular.module('ionicApp', ['ionic'])
       </section>
 
 
-
-
-        <section>
-          <div class="col preview demo-frame">
-            <iframe isrc="demos/router/index.html"></iframe>
-          </div>
-          <div class="col code">
-            <h2>Complex Lists</h2>
-            <ul style="margin-left: 70px">
-              <li>AngularJS Directive</li>
-              <li>Buttons exposed by swiping</li>
-              <li>Reorder</li>
-              <li>Delete</li>
-            </ul>
-            <pre><code data-trim contenteditable class="xml">
-<ion-list>
-
-  <ion-item ng-repeat="item in items" item="item">
-    List Item {{ item.id }}
-  </ion-item>
-
-</ion-list></code></pre>
-          </div>
-        </section>
-
-
-        <section>
-          <div class="col preview demo-frame">
-            <iframe isrc="demos/collection-repeat/index.html"></iframe>
-          </div>
-          <div class="col code">
-            <h3>Collection Repeat</h3>
-            <ul style="margin-left: 70px">
-              <li>Replacement for Angular's ng-repeat</li>
-              <li>Inspired by iOS’s UICollectionView</li>
-              <li>Scroll through thousands of items</li>
-              <li>Only renders the viewable items</li>
-              <li>Smooth scrolling!</li>
-            </ul>
-            <pre><code data-trim contenteditable class="xml">
-<div class="list">
-  <div collection-repeat="c in contacts">
-    <h2>{{ c.name }}</h2>
-    <p>{{ c.email }}</p>
-  </div>
-</div></code></pre>
-          </div>
-        </section>
-
-
-        <section>
-          <div class="col preview demo-frame">
-            <iframe isrc="demos/tabs/index.html"></iframe>
-          </div>
-          <div class="col code">
-            <h3>Navigation</h3>
-            <ul style="margin-left: 70px">
-              <li>Uses AngularUI Router</li>
-              <li>Shows back button when possible</li>
-              <li>Transitions follow direction of nav</li>
-              <li>Updates the app's URL</li>
-              <li>Multi-history stack</li>
-            </ul>
-            <pre><code data-trim contenteditable class="xml">
-<ion-tabs>
-
-  <ion-tab title="Home" icon="ion-ios-home">
-    <ion-nav-view name="home"></ion-nav-view>
-  </ion-tab>
-
-  <ion-tab title="About" icon="ion-ios-information">
-    <ion-nav-view name="about"></ion-nav-view>
-  </ion-tab>
-
-  <ion-tab title="Contact" icon="ion-ios-world">
-    <ion-nav-view name="contact"></ion-nav-view>
-  </ion-tab>
-
-</ion-tabs></code></pre>
-          </div>
-        </section>
-
-        <section>
-          <div class="col preview demo-frame">
-            <iframe isrc="demos/components/index.html"></iframe>
-          </div>
-          <div class="col code">
-            <h3>Other Components</h3>
-            <ul style="margin-left: 70px">
-              <li>Side Menus</li>
-              <li>Actionsheet</li>
-              <li>Modal</li>
-              <li>Pull To Refresh</li>
-              <li>Spinners</li>
-              <li>Slidebox</li>
-              <li>Infinite Scroll</li>
-              <li>Swipeable List Options</li>
-              <li>Popup</li>
-              <li>Popover</li>
-              <li>Loading Overlay</li>
-              <li>Inputs</li>
-              <li>Buttons</li>
-              <li>etc.</li>
-            </ul>
-          </div>
-        </section>
-
-
         <section>
           <h3>Required Tools</h3>
           <ul>
@@ -543,8 +435,106 @@ angular.module('ionicApp', ['ionic'])
           </ul>
         </section>
 
+        <section data-background-color="white">
+            <div class="sl-block" data-block-type="text" style="width: 480px; left: -21px; top: 15px; height: auto;" data-block-id="9d4a50f0381418fd357e833c8f573a46"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: center; font-size: 121%; line-height: 0.715; z-index: 10;" data-has-line-height="">
+          <h2><span style="font-size:34.485px; line-height:24.6568px">Your own Components</span></h2>
+          </div></div>
+          <div class="sl-block" data-block-type="iframe" style="min-width: 30px; min-height: 30px; width: 440px; height: 608px; left: 560px; top: 46px;" data-block-id="5858cfb137fbd238295da41687f30614">
+            <div class="col preview demo-frame right-frame">
+              <iframe isrc="demos/setup-1/index.html"></iframe>
+            </div>
+          </div>        <div class="sl-block" data-block-type="text" style="height: auto; width: 571px; left: -91px; top: 64px;" data-block-id="ea25f8fcbcb352023c7b69788b51cf21"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 116%;" dir="ui">
+          <p><span style="font-size:0.5em">It's just Angular.js! (No extra learning curve)</span></p>
+          </div></div>
+          <div class="components-code-block">
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 30px; left: 12px; top: 152px;" data-block-id="58420b46a7f92c8d9f0cb6b34741449c"><div class="sl-block-content" style="z-index: 13; font-size: 85%;">
+              <pre class="http hljs"><code class="path-to">index.html</code></pre>
+            </div></div>
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 217px; left: 12px; top: 182px;" data-block-id="58420b46a7f92c8d9f0cb6b34741449c"><div class="sl-block-content" style="z-index: 13; font-size: 85%;"><pre><code>
 
-        <section>
+
+
+            </code></pre></div></div>
+
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 30px; left: 12px; top: 376px;" data-block-id="58420b46a7f92c8d9f0cb6b34741449c"><div class="sl-block-content" style="z-index: 13; font-size: 85%;">
+              <pre class="http hljs"><code class="path-to">/templates/menu.html</code></pre>
+            </div></div>
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 154px; left: 12px; top: 406px;" data-block-id="1b197a09e0792e7eec0f05f86ebe773d"><div class="sl-block-content" style="z-index: 14; font-size: 83%;"><pre><code>
+
+
+            </code></pre></div></div>
+
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 30px; left: 12px; top: 557px;" data-block-id="58420b46a7f92c8d9f0cb6b34741449c"><div class="sl-block-content" style="z-index: 13; font-size: 85%;">
+              <pre class="http hljs"><code class="path-to">/templates/browse.html</code></pre>
+            </div></div>
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 83px; left: 12px; top: 587px;" data-block-id="cc2170c1fce978328224be8ded86b7f4"><div class="sl-block-content" style="z-index: 16; font-size: 65%;"><pre><code>
+
+            </code></pre></div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section data-background-color="white">
+            <div class="sl-block" data-block-type="text" style="width: 480px; left: -21px; top: 15px; height: auto;" data-block-id="9d4a50f0381418fd357e833c8f573a46"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: center; font-size: 121%; line-height: 0.715; z-index: 10;" data-has-line-height="">
+          <h2><span style="font-size:34.485px; line-height:24.6568px">Your own Components</span></h2>
+          </div></div>
+          <div class="sl-block" data-block-type="iframe" style="min-width: 30px; min-height: 30px; width: 440px; height: 608px; left: 560px; top: 46px;" data-block-id="5858cfb137fbd238295da41687f30614">
+            <div class="col preview demo-frame right-frame">
+              <iframe isrc="demos/setup-2/index.html"></iframe>
+            </div>
+          </div>        <div class="sl-block" data-block-type="text" style="height: auto; width: 571px; left: -91px; top: 64px;" data-block-id="ea25f8fcbcb352023c7b69788b51cf21"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 116%;" dir="ui">
+          <p><span style="font-size:0.5em">It's just Angular.js! (No extra learning curve)</span></p>
+          </div></div>
+          <div class="components-code-block">
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 217px; left: 12px; top: 172px;" data-block-id="58420b46a7f92c8d9f0cb6b34741449c"><div class="sl-block-content" style="z-index: 13; font-size: 85%;"><pre><code>
+
+
+
+            </code></pre></div></div>
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 154px; left: 12px; top: 406px;" data-block-id="1b197a09e0792e7eec0f05f86ebe773d"><div class="sl-block-content" style="z-index: 14; font-size: 83%;"><pre><code>
+
+
+            </code></pre></div></div>
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 83px; left: 12px; top: 587px;" data-block-id="cc2170c1fce978328224be8ded86b7f4"><div class="sl-block-content" style="z-index: 16; font-size: 65%;"><pre><code>
+
+            </code></pre></div>
+            </div>
+          </div>
+        </section>
+
+
+        <section data-background-color="white">
+            <div class="sl-block" data-block-type="text" style="width: 480px; left: -21px; top: 15px; height: auto;" data-block-id="9d4a50f0381418fd357e833c8f573a46"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: center; font-size: 121%; line-height: 0.715; z-index: 10;" data-has-line-height="">
+          <h2><span style="font-size:34.485px; line-height:24.6568px">Your own Components</span></h2>
+          </div></div>
+          <div class="sl-block" data-block-type="iframe" style="min-width: 30px; min-height: 30px; width: 440px; height: 608px; left: 560px; top: 46px;" data-block-id="5858cfb137fbd238295da41687f30614">
+            <div class="col preview demo-frame right-frame">
+              <iframe isrc="demos/setup-3/index.html"></iframe>
+            </div>
+          </div>        <div class="sl-block" data-block-type="text" style="height: auto; width: 571px; left: -91px; top: 64px;" data-block-id="ea25f8fcbcb352023c7b69788b51cf21"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 116%;" dir="ui">
+          <p><span style="font-size:0.5em">It's just Angular.js! (No extra learning curve)</span></p>
+          </div></div>
+          <div class="components-code-block">
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 217px; left: 12px; top: 172px;" data-block-id="58420b46a7f92c8d9f0cb6b34741449c"><div class="sl-block-content" style="z-index: 13; font-size: 85%;"><pre><code>
+
+
+
+            </code></pre></div></div>
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 154px; left: 12px; top: 406px;" data-block-id="1b197a09e0792e7eec0f05f86ebe773d"><div class="sl-block-content" style="z-index: 14; font-size: 83%;"><pre><code>
+
+
+            </code></pre></div></div>
+            <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 447px; height: 83px; left: 12px; top: 587px;" data-block-id="cc2170c1fce978328224be8ded86b7f4"><div class="sl-block-content" style="z-index: 16; font-size: 65%;"><pre><code>
+
+            </code></pre></div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- <section>
           <h3>AngularJS Primer</h3>
           <ul>
             <li>Introduction to AngularJS (<a href="https://thinkster.io/a-better-way-to-learn-angularjs">https://thinkster.io/a-better-way-to-learn-angularjs</a>)</li>
@@ -562,10 +552,10 @@ angular.module('ionicApp', ['ionic'])
               </ul>
             </li>
           </ul>
-        </section>
+        </section> -->
 
 
-        <section data-background="white">
+        <section data-background-color="white">
           <div class="sl-block" data-block-type="image" style="width: 1069.47px; height: 254px; left: -50px; position:relative;" data-block-id="f56b2bc5517a33b14705ade4a472f1e5">
             <div class="sl-block-content" style="z-index: 11;">
               <img data-natural-width="1600" data-natural-height="380" style="width: 100%;height: 100%; margin: 0; padding: 0; border: 0; vertical-align: top;" data-src="img/ng-cordova-half.png">

@@ -1489,3 +1489,12 @@ body {
 .white-table td {
   text-align: left !important;
 }
+
+code.path-to {
+  background: #efefef !important;
+  color: #D23838 !important;
+}
+
+.reveal pre {
+  box-shadow: none;
+}

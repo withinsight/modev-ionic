@@ -1,0 +1,34 @@
+<div class="list card">
+  <div class="item item-body card-body">
+    <div class="image-container">
+      <img src="{{postData.image}}" alt="" />
+    </div>
+    <div class="content-container">
+      <div class="description">
+          {{postData.description}}
+      </div>
+      <div class="" ng-if="postData.comments.length">
+        <button class="button button-clear button-positive" ng-click="toggleComments()">
+          <span ng-if="commentsVisible">Hide comments</span>
+          <span ng-if="!commentsVisible">Show {{postData.comments.length}} comments</span>
+        </button>
+        <div class="item item-text-wrap" ng-show="commentsVisible" ng-repeat="comment in postData.comments track by $index">
+          {{comment}}
+        </div>
+      </div>
+      <div ng-show="commentFieldVisible">
+        <div class="item item-input-inset" ng-show="commentFieldVisible">
+          <label class="item-input-wrapper">
+            <input type="text" placeholder="Add a comment" ng-model="newComment">
+          </label>
+          <button class="button button-small button-balanced" ng-click="addComment()">Submit</button>
+        </div>
+      </div>
+      <div class="button-bar">
+          <button class="button button-clear button-assertive icon" ng-click="toggleLike()" ng-class="{'ion-android-favorite-outline': !postData.liked, 'ion-android-favorite': postData.liked}"></button>
+          <button class="button button-clear button-calm icon ion-chatbubble" ng-click="toggleCommentForm()"></button>
+          <button class="button button-clear button-positive icon ion-android-more-horizontal" ng-click="showOptions()"></button>
+      </div>
+    </div>
+  </div>
+</div>
