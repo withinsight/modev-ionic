@@ -1439,3 +1439,53 @@ body {
   top: 98px;
   width: 296px;
   height: 527px; }
+
+.reveal .sl-block[data-block-type="table"] table td, .reveal .sl-block[data-block-type="table"] table th {
+  padding: 5px;
+  min-width: 40px;
+  border: 1px solid #fff;
+  vertical-align: top;
+  text-align: inherit;
+  outline: 0;
+  word-break: break-word;
+}
+
+.reveal p, .reveal th, .reveal td, .reveal ol, .reveal ul, .reveal li {
+  text-shadow: none;
+}
+
+.ng-cordova-slide td,
+.ng-cordova-slide th {
+      min-width: 11em !important;
+      background: #fff !important;
+}
+
+.sl-block {
+  position: absolute;
+}
+
+.right-frame iframe {
+  top: 33px !important;
+}
+
+.reveal .demo-frame.right-frame {
+  margin-top: -45px !important;
+}
+
+.components-code-block {
+  position: relative;
+  top: -2em;
+  right: 0.5em;
+}
+
+.components-code-block pre {
+  width: 105% !important;
+}
+
+.components-code-block pre code {
+  max-height: 510px;
+}
+
+.white-table td {
+  text-align: left !important;
+}
