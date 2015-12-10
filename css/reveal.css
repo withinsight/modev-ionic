@@ -1498,3 +1498,7 @@ code.path-to {
 .reveal pre {
   box-shadow: none;
 }
+
+.reveal pre code {
+  max-height: 580px;
+}

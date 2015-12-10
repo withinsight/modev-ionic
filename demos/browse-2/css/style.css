@@ -1,0 +1,11 @@
+body {
+
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.list:last-child.card {
+  margin-bottom: 0;
+}

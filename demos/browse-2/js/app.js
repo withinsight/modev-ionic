@@ -1,4 +1,4 @@
-angular.module('ionicApp', ['ionic', 'ngResource'])
+angular.module('ionicApp', ['ionic'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
@@ -28,9 +28,13 @@ angular.module('ionicApp', ['ionic', 'ngResource'])
 
 })
 
-.controller('BrowseCtrl', function($scope, Post) {
-  // Get all posts
-  $scope.posts = Post.query();
+.controller('BrowseCtrl', function($scope) {
+  $scope.posts = [
+    { likes: 0, image: 'img/arya.jpg', description: "Giving someone the stink face. #judging" },
+    { likes: 0, image: 'img/jon-snow.jpg', description: "Not very happy with my friends. #drama" },
+    { likes: 0, image: 'img/tyrion.jpg', description: "Father's Day always gets me down. #sadface" },
+    { likes: 0, image: 'img/daenerys.jpg', description: "Having friends over for a BBQ. #summer" },
+  ];
 })
 
 .directive('postCard', function($ionicActionSheet, $ionicPopup, $timeout) {
@@ -122,8 +126,4 @@ angular.module('ionicApp', ['ionic', 'ngResource'])
           };
         }
     };
-})
-
-.factory('Post', function($resource) {
-  return $resource('http://52.91.55.182/post');
 });
